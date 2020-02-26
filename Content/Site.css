@@ -9,6 +9,16 @@
 {
     display: none;
 }
+fieldset label 
+{
+    display:block;
+}
+fieldset label 
+{
+    display:block;
+    margin-bottom:5 px;
+}
+
 
 .input-validation-error
 {

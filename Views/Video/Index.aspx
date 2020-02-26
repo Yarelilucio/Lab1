@@ -7,15 +7,8 @@
     <title>Index</title>
 </head>
 <body>
-    <h1>    OPCIONES </h1>
-    <br />
-    <a href="/Video/Registar">Registrar video</a>
-    <br />
-    <a href="/Video/Eliminar">Eliminar video</a>
-    <br />
-    <a href="/Video/Actualizar">Actualizar video</a>
-    <br />
-    <a href="/Video/EliminarxRep">Eliminar video por reproducciones</a>
-
+    <div>
+    
+    </div>
 </body>
 </html>
