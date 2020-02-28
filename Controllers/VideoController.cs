@@ -21,6 +21,11 @@ namespace MvcPlantilla.Controllers
         {
             List<SqlParameter>Parametros = new List<SqlParameter>();
             Parametros.Add(new SqlParameter("@idvideo",idvideo));
+            Parametros.Add(new SqlParameter("@idtitulo", titulo));
+            Parametros.Add(new SqlParameter("@numRepro", numRepro));
+            Parametros.Add(new SqlParameter("@url", url));
+
+            BaseHelper.ejecutarSentencia("Insert into Video"+"VALUES(@idvideo,@titulo,"+"@numRepro,url)",CommandType.Text.Parametros);
             return View();
         }
         public ActionResult Eliminar()
