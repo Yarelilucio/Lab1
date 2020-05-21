@@ -32,7 +32,8 @@ namespace MVCPlantilla.Utilerias
 
                 filas = comando.ExecuteNonQuery();
             } //try
-            catch (Exception) { throw; }
+            catch (Exception) 
+            { throw; }
             finally
             {
                 con.Close();
@@ -63,7 +64,8 @@ namespace MVCPlantilla.Utilerias
 
                 adaptador.Fill(datos);
             } //try
-            catch (Exception) { throw; }
+            catch (Exception) 
+            { throw; }
             finally
             {
                 con.Close();

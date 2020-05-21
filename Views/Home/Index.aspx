@@ -9,7 +9,7 @@
 <body>
     <h1>    OPCIONES </h1>
     <br />
-    <a href="/Video/Registar">Registrar video</a>
+    <a href="/Video/Registrar">Registrar video</a>
     <br />
     <a href="/Video/Eliminar">Eliminar video</a>
     <br />
